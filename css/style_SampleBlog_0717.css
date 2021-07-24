@@ -1,0 +1,140 @@
+body {
+  background-color: white;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+header {
+  margin-top: 20px;
+}
+
+.container {
+  width: 920px;
+  margin: 0 auto 0px auto;
+}
+
+.header-title-area {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 32px;
+}
+
+.header-navigation {
+  width: 100%;
+  background-color: #333;
+  padding: 20px 0;
+}
+
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.header-navigation li {
+  float: left;
+  padding: 0 30px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.header-navigation li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.left-contents {
+  width: 600px;
+  margin-right: 20px;
+  float: left;
+}
+
+.right-contents {
+  width: 300px;
+  float: left;
+}
+
+.card-contents {
+  display: block;
+  background-color: white;
+  padding: 20px 40px 20px 40px;
+  margin-bottom: 20px;
+}
+
+.right-contents .card-contents {
+  padding: 3px;
+  margin-bottom: 0px;
+}
+
+.blog-date {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.right-contents .blog-date {
+  font-size: 10px;
+}
+
+.blog-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #003399;
+  font-size: 24px;
+}
+
+.right-contents .blog-title {
+  font-size: 10px;
+}
+
+.blog-image {
+  float: left;
+  display: block;
+  margin-right: 15px;
+  width: 150px;
+  height: 150px;
+}
+
+.right-contents .blog-image {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.blog-contents {
+  float: left;
+}
+
+.blog-outline {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.new-title {
+  font-size: 26px;
+}
+
+.copyright {
+  color: #777;
+  text-align: center;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
